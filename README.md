@@ -2,6 +2,10 @@
   <img src="https://img.icons8.com/nolan/96/instagram-new.png" alt="InstaAdmin Logo" width="80" height="80">
   <h1>InstaAdmin: Enterprise Social Media Automation Engine</h1>
   <p><strong>Scale. Automate. Dominate.</strong></p>
+  <a href="https://wa.me/60147606801" target="_blank">
+    <img src="https://img.shields.io/badge/Contact_via_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Contact">
+  </a>
+  <br/><br/>
   <p><i>The ultimate control center for intelligent, large-scale marketing campaigns.</i></p>
 </div>
 
