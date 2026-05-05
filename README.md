@@ -94,8 +94,4 @@ InstaAdmin is built for performance but designed like a premium SaaS product. Th
 ## 📬 Licensing & Inquiries
 Interested in deploying InstaAdmin or commissioning a custom automation infrastructure tailored to your brand's growth needs? 
 
-**Contact us to discuss enterprise solutions and licensing opportunities:**
-
-<a href="https://wa.me/60147606801" target="_blank">
-  <img src="https://img.shields.io/badge/Contact_via_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Contact">
-</a>
+**Contact us to discuss enterprise solutions and licensing opportunities.**
