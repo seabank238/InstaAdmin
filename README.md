@@ -55,10 +55,10 @@ InstaAdmin is built for performance but designed like a premium SaaS product. Th
   <img src="./screenshots/dashboard.png" alt="InstaAdmin Dashboard" width="800" style="border-radius: 12px; border: 1px solid #8A2BE2;">
 </p>
 
-### 👥 Bot Fleet Manager (Account List)
-*Manage hundreds of independent accounts, monitor proxy configurations, and review active session states.*
+### 👥 Core Bot Control Hub (API Run)
+*The heart of InstaAdmin: command and control for Phase 1 bots, triggering bio scanning, and executing primary and general message routines across all instances.*
 <p align="center">
-  <img src="./screenshots/account_list.png" alt="InstaAdmin Fleet Manager" width="800" style="border-radius: 12px; border: 1px solid #8A2BE2;">
+  <img src="./screenshots/api_run.png" alt="InstaAdmin Core Bot Control" width="800" style="border-radius: 12px; border: 1px solid #8A2BE2;">
 </p>
 
 ### 🎯 Targeted Campaign Configuration
