@@ -1,66 +1,83 @@
 <div align="center">
   <img src="https://img.icons8.com/nolan/96/instagram-new.png" alt="InstaAdmin Logo" width="80" height="80">
-  <h1>InstaAdmin: Advanced Social Media Marketing & Automation Platform</h1>
+  <h1>InstaAdmin: Enterprise Social Media Automation Engine</h1>
   <p><strong>Scale. Automate. Dominate.</strong></p>
+  <p><i>The ultimate control center for intelligent, large-scale marketing campaigns.</i></p>
 </div>
 
 <br/>
 
-## 🚀 Overview
-**InstaAdmin** is a premium, enterprise-grade marketing automation dashboard designed for large-scale social media operations. Built with a highly responsive, modern **Dark Neon Glassmorphism UI**, the system provides unparalleled control over targeted campaigns, bot networks, and lead generation. 
+## 🚀 System Overview
+**InstaAdmin** is a highly proprietary, enterprise-grade social media marketing automation platform. Built with a decoupled **Django + FastAPI** architecture, it serves as the command center for orchestrating massive fleets of automated accounts (up to 125+ concurrent bots). 
 
-*Note: This repository serves as a showcase of the UI and system capabilities. The core proprietary engine and source code are kept strictly confidential.*
+Featuring a modern, meticulously crafted **Dark Neon Glassmorphism UI**, InstaAdmin provides a seamless and visually stunning experience for managing complex workflows, parsing thousands of user bios, and executing hyper-targeted outreach campaigns at scale.
 
----
-
-## 🔥 Key Capabilities
-
-### 1. 🤖 Bot Fleet Management
-- **Centralized Account Hub**: Monitor dozens or hundreds of accounts in real-time.
-- **Health Checks**: Instant status indicators (`✓ Ready` / `✗ Required`) for auth states and proxy connectivity.
-- **Settings Override**: Configure interaction limits, delays, and fail-safes globally or per-account.
-
-### 2. 🎯 Precision Targeting & Campaigns
-- **Targeted Outreach**: Deploy custom messaging campaigns with dynamic variables to specific audience segments.
-- **General Messaging**: Broadcast announcements or promos seamlessly across your network.
-- **Seen Status Tracking**: Real-time read-receipt and engagement monitoring.
-
-### 3. 🧠 Smart Lead Scraping
-- **Bio Scanning Engine**: Automatically parse and extract keywords, emails, or links from user bios at scale.
-- **General Scanning**: Build high-quality lead lists by scraping followers, hashtags, and geo-locations.
-
-### 4. 💬 Intelligent Comment Bot
-- **Auto-Responder**: Deploy context-aware auto-replies on trending posts.
-- **Sentiment Analysis**: Filter and respond based on positive/negative keyword triggers.
+*Disclaimer: This repository serves strictly as a frontend and feature portfolio. The core proprietary execution engine, AI integration logic, and headless scraping models are kept completely confidential.*
 
 ---
 
-## 💻 System Interface Showcase
+## 🔥 Enterprise Capabilities
 
-Our system is built not just for performance, but for an exceptional user experience. Say goodbye to clunky, legacy admin panels.
+### 1. 🤖 Bot Fleet & Instance Orchestration
+- **Massive Concurrency**: Manages and schedules 1-125 independent account runners simultaneously via FastAPI and asynchronous job queues.
+- **Advanced Device Fingerprinting**: Every bot instance runs with isolated User-Agents, distinct Device-IDs, isolated Session PKL files, and dynamically jittered startup delays to completely circumvent platform anti-bot measures.
+- **Fleet Health Monitoring**: Live dashboard tracking proxy health, authentication statuses (`✓ Ready` / `✗ Required`), and interaction limits.
 
-### 🔐 Secure Login Portal
-*A completely immersive, split-screen glassmorphism design that emphasizes security and premium marketing tools.*
+### 2. 🎯 Hyper-Targeted AI Campaigns (ChatGPT Integrated)
+- **Dynamic Message Generation**: Deep integration with LLMs (e.g., ChatGPT) to generate highly contextual, varied, and personalized outreach messages based on the scraped bio details of targets.
+- **Intelligent Flow Control**: Bypasses spam filters with dynamically varied prompt temperatures, avoiding fixed marketing copy and ensuring natural conversation flow.
+- **Seen Status Tracking**: Real-time tracking of message read-receipts and engagement, feeding back into campaign analytics.
+
+### 3. 🧠 Deep Audience Scraping & Lead Gen
+- **Bio Scanning Engine**: Automatically parses large swaths of users to extract emails, websites, keywords, and specific profile traits.
+- **General Scraping**: Harvest user lists from competitors, specific hashtags, or geographical locations with extreme efficiency.
+- **Database Centralization**: All scraped leads are piped into a centralized MySQL/SQLite warehouse for campaign filtering.
+
+### 4. 💬 Engagement Automation
+- **Comment Bot**: Identifies trending posts within niches and deploys contextually relevant auto-replies.
+- **Auto-Responder**: Filters incoming messages based on sentiment and keyword triggers, managing initial follow-ups seamlessly.
+
+---
+
+## 💻 Interface Showcase
+
+InstaAdmin is built for performance but designed like a premium SaaS product. The interface eliminates eye strain for extended monitoring sessions and uses an intuitive layout to handle complex data density.
+
+### 🔐 Secure Authentication Portal
+*Immersive, split-screen glassmorphism design emphasizing the system's focus on enterprise automation and security.*
 <p align="center">
   <img src="./screenshots/login.png" alt="InstaAdmin Login Screen" width="800" style="border-radius: 12px; border: 1px solid #8A2BE2;">
 </p>
 
-### 🎛️ Real-time Operations Dashboard
-*A sleek, dark-neon interface reducing eye strain while providing maximum data density and control.*
+### 🎛️ Operations Dashboard (Real-time Analytics)
+*The central hub showing system metrics, queue statuses, and overall campaign health.*
 <p align="center">
-  <img src="./screenshots/dashboard.png" alt="InstaAdmin Dashboard Interface" width="800" style="border-radius: 12px; border: 1px solid #8A2BE2;">
+  <img src="./screenshots/dashboard.png" alt="InstaAdmin Dashboard" width="800" style="border-radius: 12px; border: 1px solid #8A2BE2;">
+</p>
+
+### 👥 Bot Fleet Manager (Account List)
+*Manage hundreds of independent accounts, monitor proxy configurations, and review active session states.*
+<p align="center">
+  <img src="./screenshots/account_list.png" alt="InstaAdmin Fleet Manager" width="800" style="border-radius: 12px; border: 1px solid #8A2BE2;">
+</p>
+
+### 🎯 Targeted Campaign Configuration
+*Set up precise outreach strategies, configure LLM prompts, and manage target demographics.*
+<p align="center">
+  <img src="./screenshots/campaigns.png" alt="InstaAdmin Campaigns" width="800" style="border-radius: 12px; border: 1px solid #8A2BE2;">
 </p>
 
 ---
 
-## 🛡️ Enterprise Security & Architecture
-- **Data Encryption**: Advanced encryption protocols for all stored credentials and proxies.
-- **Audit Ready**: Comprehensive error logging and action tracing for network health diagnostics.
-- **Headless Operation**: Built to interface with headless browser clusters for undetectable automation.
+## 🛡️ Architecture & Security
+- **Django Administration**: Serves the UI, handles user authentication, and provides the CRM logic.
+- **FastAPI Engine**: High-performance backend orchestrating the actual Python-based bot scripts (`message.py`, `bio_scraper.py`, etc.).
+- **Headless Execution**: Built to interface with Chromium/Playwright for completely undetectable automation.
+- **End-to-End Encryption**: Secure storage for all proxies and account credentials.
 
 ---
 
 ## 📬 Licensing & Inquiries
-Interested in utilizing the InstaAdmin platform or commissioning a custom automation infrastructure for your business? 
+Interested in deploying InstaAdmin or commissioning a custom automation infrastructure tailored to your brand's growth needs? 
 
-**Contact us to discuss tailored enterprise solutions.**
+**Contact us to discuss enterprise solutions and licensing opportunities.**
