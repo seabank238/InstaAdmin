@@ -59,8 +59,18 @@ InstaAdmin is built for performance but designed like a premium SaaS product. Th
   <img src="./screenshots/dashboard.png" alt="InstaAdmin Dashboard" width="800" style="border-radius: 12px; border: 1px solid #8A2BE2;">
 </p>
 
-### 👥 Core Bot Control Hub (API Run)
-*The heart of InstaAdmin: command and control for Phase 1 bots, triggering bio scanning, and executing primary and general message routines across all instances.*
+### ⚙️ Core Bot Control Hub (API Run)
+*The absolute heart of InstaAdmin. This interface commands the execution of 11 highly specialized bot families across all 125 instances concurrently:*
+- **Primary & General Scanning (`capture / general_capture`)**: Scours target audiences, hashtags, and competitors to build initial lead lists.
+- **Bio Scraper (`profile_scraper_runner`)**: Deep-scans targeted profiles, extracting keywords, follower counts, and outbound links into a centralized database.
+- **LLM Message Generator (`message_generator`)**: Analyzes scraped bios and utilizes ChatGPT API to dynamically craft context-aware, highly personalized outreach text.
+- **First & Primary Message Bots (`first_message / message`)**: Executes the initial cold outreach with built-in human-delay jitter to bypass spam algorithms.
+- **General Message Bots (`general_message`)**: Handles broad-stroke announcements and secondary follow-ups.
+- **Seen Status Bot (`seen_bot`)**: Monitors DM threads for read receipts, tracking engagement metrics in real-time.
+- **Comment Bot (`comment_bot`)**: Automatically posts context-relevant comments on leads' latest media to boost visibility before DMing.
+- **Image Bot (`images`)**: Handles the distribution of targeted media/promotional images within DMs.
+- **Delete Blocked Users (`delete`)**: Automatically prunes blocked, dead, or unresponsive targets from the execution queues to preserve proxy and account health.
+
 <p align="center">
   <img src="./screenshots/api_run.png" alt="InstaAdmin Core Bot Control" width="800" style="border-radius: 12px; border: 1px solid #8A2BE2;">
 </p>
